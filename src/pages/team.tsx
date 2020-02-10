@@ -6,12 +6,12 @@ import { WideContainer } from '../shared'
 import { TeamHero } from '../components/Team/Hero'
 
 const TeamPage = (): React.ReactElement => (
-	<Layout>
-		<SEO title="Team" />
-		<WideContainer>
-			<TeamHero />
-			<Teams />
-		</WideContainer>
-	</Layout>
+  <Layout>
+    <SEO title="Team" />
+    <WideContainer>
+      <TeamHero />
+      <Teams />
+    </WideContainer>
+  </Layout>
 )
 export default TeamPage

@@ -7,10 +7,10 @@ import { Products } from './Products'
 import { Mailchimp } from './Mailchimp'
 
 export default () => (
-	<>
-		<HomeHero />
-		<Mission />
-		<Funded />
-		<Mailchimp />
-	</>
+  <>
+    <HomeHero />
+    <Mission />
+    <Funded />
+    <Mailchimp />
+  </>
 )
