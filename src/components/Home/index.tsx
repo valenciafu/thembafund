@@ -1,15 +1,16 @@
 import React from 'react'
 
-import { Hero } from './Hero'
-import { Stats } from './Stats'
+import { HomeHero } from './HomeHero'
+import { Mission } from './Mission'
+import { Funded } from './Funded'
 import { Products } from './Products'
 import { Mailchimp } from './Mailchimp'
 
 export default () => (
-  <>
-    <Hero />
-    <Stats />
-    <Products />
-    <Mailchimp />
-  </>
+	<>
+		<HomeHero />
+		<Mission />
+		<Funded />
+		<Mailchimp />
+	</>
 )

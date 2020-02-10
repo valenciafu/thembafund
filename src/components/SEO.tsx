@@ -47,7 +47,7 @@ function SEO({
         lang,
       }}
       title={title}
-      titleTemplate={`%s | Penn Labs`}
+      titleTemplate={`%s | The MBA Fund`}
       meta={[
         {
           name: `description`,
@@ -55,7 +55,7 @@ function SEO({
         },
         {
           name: `author`,
-          content: `Penn Labs <contact@${URL}>`,
+          content: `The MBA Fund <contact@${URL}>`,
         },
         {
           property: `og:title`,
@@ -79,7 +79,7 @@ function SEO({
         },
         {
           property: `og:image-alt`,
-          content: 'Penn Labs Logo',
+          content: 'The MBA Fund Logo',
         },
         {
           name: `twitter:site`,
@@ -107,7 +107,7 @@ function SEO({
         },
         {
           name: `twitter:image-alt`,
-          content: 'Penn Labs logo',
+          content: 'The MBA Fund logo',
         },
       ].concat(meta)}
     />

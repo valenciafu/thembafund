@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="493px" height="154px" viewBox="0 0 493 154" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="72.4943462%" y1="15.0647615%" x2="12.8160979%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#93EDC7" offset="0%"></stop>
+            <stop stop-color="#1CD8D2" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-248.000000, -427.000000)">
+            <g id="Group-3" transform="translate(248.000000, 409.000000)">
+                <path d="M50,68 L50,18 L153,18 L153,69.3355263 L101.664474,69.3355263 L101.664474,120.671053 L51.336,120.672 L51.3355263,171 L0,171 L0,68 L50,68 Z" id="Combined-Shape" fill="url(#linearGradient-1)"></path>
+                <text id="The-MBA-Fund" font-family="SFProDisplay-Semibold, SF Pro Display" font-size="80" font-weight="500" fill="#000000">
+                    <tspan x="170" y="76">The MBA</tspan>
+                    <tspan x="170" y="171">Fund</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

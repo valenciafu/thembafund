@@ -1,12 +1,10 @@
 import React from 'react'
-import { graphql } from 'gatsby'
 import styled from 'styled-components'
 import BackgroundImage from 'gatsby-background-image'
 
 import Layout from '../components/Layout'
 import SEO from '../components/SEO'
 import Posts from '../components/Blog/Posts'
-import { IMember, Subset, IGhostPost } from '../types'
 import {
   H1,
   P,
@@ -267,52 +265,5 @@ const MemberTemplate = ({ data }: IMemberTemplateProps) => {
     </Layout>
   )
 }
-
-export const pageQuery = graphql`
-  query($id: String!, $url: String!) {
-    member(id: { eq: $id }) {
-      bio
-      github
-      graduation_year
-      linkedin
-      location
-      photo
-      roles {
-        name
-      }
-      student {
-        name
-        major
-        school
-      }
-      localImage {
-        childImageSharp {
-          fluid(maxWidth: 484) {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-      team
-      website
-      year_joined(formatString: "YYYY")
-    }
-    allGhostPost(filter: { authors: { elemMatch: { slug: { eq: $url } } } }) {
-      edges {
-        node {
-          slug
-          title
-          excerpt
-          localImage {
-            childImageSharp {
-              fluid(maxWidth: 484) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-`
 
 export default MemberTemplate

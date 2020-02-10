@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `pennlabs.org`,
-    description: `Built for students, by students. Penn Labs is the student software development organization improving life at the University of Pennsylvania.`,
-    author: `Penn Labs <contact@pennlabs.org>`,
+    title: `thembafund.com`,
+    description: `A network of founders, executives and investors committed to mentoring and investing in leading early-stage, student and alumni founders.
+`,
+    author: `Valencia Fu valenciafu@gmail.com`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -26,13 +27,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `pennlabs.org`,
-        short_name: `pennlabs`,
+        name: `thembafund.com`,
+        short_name: `thembafund`,
         start_url: `/`,
-        background_color: `#209CEE`,
-        theme_color: `#209CEE`,
+        background_color: `#1CD8D2`,
+        theme_color: `#1CD8D2`,
         display: `minimal-ui`,
-        icon: `src/images/beaker-favicon.png`, // This path is relative to the root of the site.
+        icon: `src/images/mba-simple-logo.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-typescript`,
@@ -42,17 +43,9 @@ module.exports = {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
         custom: {
-          families: ['Inter, Work Sans'],
+          families: ['Inter'],
           urls: ['/fonts/fonts.css'],
         },
-      },
-    },
-    {
-      resolve: `gatsby-source-ghost`,
-      options: {
-        apiUrl: `https://ghost.pennlabs.org`,
-        contentApiKey: process.env.GHOST_API_KEY,
-        version: `v3`, // Ghost API version, optional, defaults to "v3".
       },
     },
     {

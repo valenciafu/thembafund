@@ -12,17 +12,22 @@ export const LABS_BLUE_ALPHA = (a: number) => `rgba(32, 156, 238, ${a})`
 export const LABS_BLUE = LABS_BLUE_ALPHA(1)
 export const LABS_BLUE_DEEP = '#1c97e8'
 export const LABS_BLUE_DARK = '#0068AC'
-export const LILAC = '#E7ECFF'
+
 export const PURPLE_DEEP = '#A3A7FE'
 export const PURPLE_DARK = '#9381FD'
 export const INDIGO = '#4156a3'
+
+export const YELLOW = '#FFD66F'
+export const PINK_ALPHA = (a: number) => `rgba(241, 118, 115, ${a})`
+export const PINK = PINK_ALPHA(1)
+
+export const MBA_AQUA = '#1CD8D2'
 export const TEAL_ALPHA = (a: number) => `rgba(24, 162, 184, ${a})`
 export const TEAL = TEAL_ALPHA(1)
 export const GREEN_ALPHA = (a: number) => `rgba(108, 205, 151, ${a})`
 export const GREEN = GREEN_ALPHA(1)
-export const YELLOW = '#FFD66F'
-export const PINK_ALPHA = (a: number) => `rgba(246, 124, 131, ${a})`
-export const PINK = PINK_ALPHA(1)
+export const LILAC_ALPHA = (a: number) => `rgba(142, 167, 255, ${a})`
+export const LILAC = LILAC_ALPHA(1)
 
 // Misc
 export const OUTLINE = 'rgba(0, 123, 255, 0.25)'

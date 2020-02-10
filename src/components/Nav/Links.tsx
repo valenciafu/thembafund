@@ -10,7 +10,7 @@ import {
   SHORT_ANIMATION_DURATION,
 } from '../../constants/measurements'
 import { BLACK } from '../../constants/colors'
-import { WORK_SANS } from '../../constants/fonts'
+import { INTER } from '../../constants/fonts'
 import {
   ABOUT_ROUTE,
   TEAM_ROUTE,
@@ -51,7 +51,7 @@ const Spacer = styled.div<{}>`
 `
 
 const StyledLink = styled(Link)<{}>`
-  height: 2rem;
+  height: 1rem;
   line-height: 2rem;
   margin-left: 1rem;
   color: ${BLACK};
@@ -59,7 +59,8 @@ const StyledLink = styled(Link)<{}>`
   text-decoration: none;
   cursor: pointer;
   transition: opacity ${SHORT_ANIMATION_DURATION}ms ease;
-  font-family: ${WORK_SANS};
+  font-family: ${INTER};
+  font-weight: 500;
 
   &:visited {
     color: ${BLACK};
@@ -88,10 +89,10 @@ const StyledLink = styled(Link)<{}>`
 const links: string[][] = [
   ['About', ABOUT_ROUTE],
   ['Team', TEAM_ROUTE],
-  ['Products', PRODUCTS_ROUTE],
-  ['Resources', RESOURCES_ROUTE],
   ['Blog', BLOG_ROUTE],
-  ['Apply', APPLY_ROUTE],
+  /*['Products', PRODUCTS_ROUTE],
+  ['Resources', RESOURCES_ROUTE],
+  ['Apply', APPLY_ROUTE],*/
 ]
 
 export const Links = ({ active }: ILinksProps): React.ReactElement => (

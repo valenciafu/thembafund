@@ -65,35 +65,3 @@
   src: url('Inter-BlackItalic.woff2?v=3.11') format('woff2'),
     url('Inter-BlackItalic.woff?v=3.11') format('woff');
 }
-
-@font-face {
-  font-family: 'Work Sans';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url('WorkSans-Regular.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Work Sans';
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: url('WorkSans-SemiBold.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Work Sans';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url('WorkSans-Bold.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Work Sans';
-  font-style: normal;
-  font-weight: 900;
-  font-display: swap;
-  src: url('WorkSans-Black.ttf') format('truetype');
-}

@@ -44,8 +44,8 @@ export class Mailchimp extends React.Component<{}, IMailchimpState> {
     return (
       <ThinContainer>
         <Card bordered shaded>
-          <H2 mb2>Stay in the loop!</H2>
-          <P>Get product updates, event invites, and more.</P>
+          <H2 mb2>Stay in touch</H2>
+          <P>Get news, application updates, and more.</P>
           <form
             id={MAILCHIMP_FORM_ID}
             action={MAILCHIMP_SUBSCRIBE_ROUTE}
