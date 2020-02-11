@@ -1,6 +1,6 @@
 // Internal
 export const HOME_ROUTE = '/'
-export const ABOUT_ROUTE = '/about'
+export const PORTFOLIO_ROUTE = '/portfolio'
 export const RESOURCES_ROUTE = '/resources'
 export const APPLY_ROUTE = '/apply'
 export const BLOG_ROUTE = '/blog'

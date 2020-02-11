@@ -11,6 +11,13 @@ export type ReactChildren = React.ReactNode | React.ReactNodeArray
 
 // Data types used throughout the app
 
+export interface IPortfolio {
+  name: string
+  description: string
+  link: string
+  logo: string
+}
+
 export interface IRole {
   name: string
 }

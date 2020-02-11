@@ -12,7 +12,7 @@ import {
 import { BLACK } from '../../constants/colors'
 import { INTER } from '../../constants/fonts'
 import {
-  ABOUT_ROUTE,
+  PORTFOLIO_ROUTE,
   TEAM_ROUTE,
   PRODUCTS_ROUTE,
   RESOURCES_ROUTE,
@@ -87,7 +87,7 @@ const StyledLink = styled(Link)<{}>`
 `
 
 const links: string[][] = [
-  ['About', ABOUT_ROUTE],
+  ['Portfolio', PORTFOLIO_ROUTE],
   ['Team', TEAM_ROUTE],
   ['Blog', BLOG_ROUTE],
   /*['Products', PRODUCTS_ROUTE],
