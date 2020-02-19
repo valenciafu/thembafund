@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Vivien Ho",
+    "email": "vivienlho@gmail.com",
+    "hometown": "San Francisco, CA & Shanghai, China",
+    "year": "2020",
+    "image": "a",
+    "bio": "Hobby: Skiing on a fresh powder day",
+    "linkedin": "https://www.linkedin.com/in/vivienlho/",
+    "otherLink": "https://twitter.com/hovivienl"
+  },
+  {
+    "name": "Claire Zhang",
+    "email": "clrzhg@gmail.com",
+    "hometown": "Jupiter, FL & New York, NY",
+    "year": "2021",
+    "image": "a",
+    "bio": "I've been training in circus aerial arts‚ lyra, and silks for a couple years (sadly on hiatus while at school...)",
+    "linkedin": "https://www.linkedin.com/in/clairehzhang/",
+    "otherLink": ""
+  }
+]

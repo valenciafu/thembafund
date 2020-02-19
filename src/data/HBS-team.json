@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Tannya Cai",
+    "email": "tannya.cai@gmail.com",
+    "hometown": "Ottawa, ON",
+    "year": "2021",
+    "image": "a",
+    "fact-hobby": "Photography and hiking are my two major passions. I am also a huge fan of visual design and user design.",
+    "linkedin": "https://www.linkedin.com/in/tannyacai/",
+    "other-link": "https://medium.com/@tannyacai"
+  },
+  {
+    "name": "Carmi Medoff",
+    "email": "medoffc@gmail.com",
+    "hometown": "Greensboro, NC",
+    "year": "2020",
+    "image": "a",
+    "fact-hobby": "I've never met another person on the planet with the same first name as me!",
+    "linkedin": "https://www.linkedin.com/in/carmi-medoff/",
+    "other-link": ""
+  },
+  {
+    "name": "Rebecca Milian",
+    "email": "rebeccamilian15@gmail.com",
+    "hometown": "White Plains, NY",
+    "year": "2020",
+    "image": "a",
+    "fact-hobby": "I love backpacking and have taken backpacking trips across 5 continents ",
+    "linkedin": "https://www.linkedin.com/in/rebecca-milian/",
+    "other-link": ""
+  },
+  {
+    "name": "Wendy Cyffka",
+    "email": "wendy.cyffka@gmail.com",
+    "hometown": "Los Angeles, CA",
+    "year": "2021",
+    "image": "a",
+    "fact-hobby": "My favorite books are Three Body Problem, Paper Menagerie, Ender's Game, Sapiens, and The Hard Thing About Hard Things",
+    "linkedin": "https://www.linkedin.com/in/wendycyffka/",
+    "other-link": "a"
+  },
+  {
+    "name": "Sam Eisler",
+    "email": "samantha.eisler@gmail.com",
+    "hometown": "White Plains, NY",
+    "year": "2021",
+    "image": "a",
+    "fact-hobby": "I have 13 pairs of glasses, and love matching each pair to my mood that day!",
+    "linkedin": "https://www.linkedin.com/in/samantha-eisler/",
+    "other-link": "a"
+  }
+]
