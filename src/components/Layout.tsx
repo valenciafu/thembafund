@@ -9,21 +9,21 @@ import { ReactChildren } from '../types'
 import { HEADER_HEIGHT, FOOTER_HEIGHT } from '../constants/measurements'
 
 const Main = styled.div<{}>`
-	min-height: calc(100vh - ${HEADER_HEIGHT} - ${FOOTER_HEIGHT});
+  min-height: calc(100vh - ${HEADER_HEIGHT} - ${FOOTER_HEIGHT});
 `
 
 interface ILayoutProps {
-	children: ReactChildren
+  children: ReactChildren
 }
 
 const Layout = ({ children }: ILayoutProps): React.ReactElement => {
-	return (
-		<ParallaxProvider>
-			<Nav />
-			<Main>{children}</Main>
-			<Footer />
-		</ParallaxProvider>
-	)
+  return (
+    <ParallaxProvider>
+      <Nav />
+      <Main>{children}</Main>
+      <Footer />
+    </ParallaxProvider>
+  )
 }
 
 export default Layout
