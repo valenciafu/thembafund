@@ -26,7 +26,7 @@ const FakeBgImage = styled(Img)`
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
   height: 90vh;
   z-index: -1;
 
