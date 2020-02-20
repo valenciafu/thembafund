@@ -53,7 +53,8 @@ const StyledLink = styled(Link)<{}>`
   cursor: pointer;
   transition: opacity ${SHORT_ANIMATION_DURATION}ms ease;
   font-family: ${INTER};
-  font-weight: 500;
+  font-weight: 400;
+  font-size: 1rem;
 
   &:visited {
     color: ${BLACK};
@@ -63,7 +64,6 @@ const StyledLink = styled(Link)<{}>`
   &:active {
     color: ${BLACK};
     opacity: 1;
-    text-decoration: none;
   }
 
   ${minWidth(DESKTOP)} {
