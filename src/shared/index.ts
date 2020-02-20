@@ -1,4 +1,3 @@
-export * from './Blobs'
 export * from './Btn'
 export * from './Card'
 export * from './Fade'
