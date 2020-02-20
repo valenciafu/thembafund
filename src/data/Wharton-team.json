@@ -4,7 +4,7 @@
     "email": "vivienlho@gmail.com",
     "hometown": "San Francisco, CA & Shanghai, China",
     "year": "2020",
-    "image": "a",
+    "image": "https://the-mba-fund.s3.us-east-2.amazonaws.com/vivien-ho.jpeg",
     "bio": "Hobby: Skiing on a fresh powder day",
     "linkedin": "https://www.linkedin.com/in/vivienlho/",
     "otherLink": "https://twitter.com/hovivienl"
@@ -14,9 +14,59 @@
     "email": "clrzhg@gmail.com",
     "hometown": "Jupiter, FL & New York, NY",
     "year": "2021",
-    "image": "a",
+    "image": "https://the-mba-fund.s3.us-east-2.amazonaws.com/claire-zhang.jpeg",
     "bio": "I've been training in circus aerial arts‚ lyra, and silks for a couple years (sadly on hiatus while at school...)",
     "linkedin": "https://www.linkedin.com/in/clairehzhang/",
+    "otherLink": ""
+  },
+  {
+    "name": "Jacob Conger",
+    "email": "jconger00@gmail.com",
+    "hometown": "Charlotte, NC",
+    "year": "2020",
+    "image": "https://the-mba-fund.s3.us-east-2.amazonaws.com/jacob-conger.png",
+    "bio": "Former Professional Gamer, Future Amateur Singer",
+    "linkedin": "https://www.linkedin.com/in/jacob-conger-9238444a/",
+    "otherLink": "https://twitter.com/jconger001"
+  },
+  {
+    "name": "Inder Takhar",
+    "email": "itakhar81@gmail.com",
+    "hometown": "Montgomery Village, MD",
+    "year": "2021",
+    "image": "https://the-mba-fund.s3.us-east-2.amazonaws.com/inder-takhar.jpeg",
+    "bio": "",
+    "linkedin": "https://www.linkedin.com/in/inder-takhar/",
+    "otherLink": ""
+  },
+  {
+    "name": "Anish Neervannan",
+    "email": "anish.neervannan@gmail.com",
+    "hometown": "Irvine, CA",
+    "year": "2022",
+    "image": "https://the-mba-fund.s3.us-east-2.amazonaws.com/anish-neervannan.JPG",
+    "bio": "Fun Fact: a monkey once stole my glasses straight off of my face in India!! Hobby: Indian classical violin, ping pong",
+    "linkedin": "https://www.linkedin.com/in/anish-neervannan/",
+    "otherLink": ""
+  },
+  {
+    "name": "Ron Kerbs",
+    "email": "ronkerbs@gmail.com",
+    "hometown": "Qiryat Motzkin, Israel ",
+    "year": "2020",
+    "image": "https://the-mba-fund.s3.us-east-2.amazonaws.com/ron-kerbs.jpg",
+    "bio": "I have a goal to visit all continents. I still haven't visited Australia and Antarctica but my trip to Antarctica is already booked :) ",
+    "linkedin": "https://www.linkedin.com/in/ron-kerbs/",
+    "otherLink": ""
+  },
+  {
+    "name": "Lindsay Pistor",
+    "email": "lindsay.pistor@gmail.com",
+    "hometown": "Houston, TX",
+    "year": "2020",
+    "image": "https://the-mba-fund.s3.us-east-2.amazonaws.com/lindsay-pistor.jpg",
+    "bio": "I love to snow ski!",
+    "linkedin": "https://www.linkedin.com/in/lindsay-pistor-a6aba5aa/",
     "otherLink": ""
   }
 ]

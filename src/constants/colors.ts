@@ -22,6 +22,7 @@ export const PINK_ALPHA = (a: number) => `rgba(241, 118, 115, ${a})`
 export const PINK = PINK_ALPHA(1)
 
 export const MBA_AQUA = '#1CD8D2'
+export const MBA_AQUA_LIGHT = '#64EBE6'
 export const TEAL_ALPHA = (a: number) => `rgba(24, 162, 184, ${a})`
 export const TEAL = TEAL_ALPHA(1)
 export const GREEN_ALPHA = (a: number) => `rgba(108, 205, 151, ${a})`

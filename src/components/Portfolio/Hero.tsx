@@ -13,7 +13,7 @@ export const PortfolioHero = () => {
     <StyledSection>
       <Container>
         <H1 white mb0>
-          Portfolio
+          Our Portfolio
         </H1>
       </Container>
     </StyledSection>

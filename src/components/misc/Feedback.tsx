@@ -3,8 +3,8 @@ import s from 'styled-components'
 
 import {
   WHITE,
-  LABS_BLUE,
-  LABS_BLUE_DEEP,
+  MBA_AQUA,
+  MBA_AQUA_LIGHT,
   OUTLINE,
 } from '../../constants/colors'
 import { maxWidth, PHONE } from '../../constants/measurements'
@@ -22,7 +22,7 @@ const FeedbackLink = s.a<{}>`
   width: ${DIAMETER};
   height: ${DIAMETER};
   border-radius: 3rem;
-  background-color: ${LABS_BLUE};
+  background-color: ${MBA_AQUA};
   position: fixed;
   bottom: ${OFFSET}px;
   right: ${OFFSET}px;
@@ -35,7 +35,7 @@ const FeedbackLink = s.a<{}>`
   justify-content: center;
 
   &:hover {
-    background-color: ${LABS_BLUE_DEEP};
+    background-color: ${MBA_AQUA_LIGHT};
   }
 
   ${maxWidth(PHONE)} {

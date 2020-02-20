@@ -11,14 +11,7 @@ import {
 } from '../../constants/measurements'
 import { BLACK } from '../../constants/colors'
 import { INTER } from '../../constants/fonts'
-import {
-  PORTFOLIO_ROUTE,
-  TEAM_ROUTE,
-  PRODUCTS_ROUTE,
-  RESOURCES_ROUTE,
-  BLOG_ROUTE,
-  APPLY_ROUTE,
-} from '../../constants/routes'
+import { PORTFOLIO_ROUTE, TEAM_ROUTE } from '../../constants/routes'
 
 interface ILinksProps {
   active: boolean
@@ -89,10 +82,6 @@ const StyledLink = styled(Link)<{}>`
 const links: string[][] = [
   ['Portfolio', PORTFOLIO_ROUTE],
   ['Team', TEAM_ROUTE],
-  ['Blog', BLOG_ROUTE],
-  /*['Products', PRODUCTS_ROUTE],
-  ['Resources', RESOURCES_ROUTE],
-  ['Apply', APPLY_ROUTE],*/
 ]
 
 export const Links = ({ active }: ILinksProps): React.ReactElement => (

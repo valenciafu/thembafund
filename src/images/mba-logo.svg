@@ -10,9 +10,9 @@
         </linearGradient>
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Desktop" transform="translate(-248.000000, -427.000000)">
-            <g id="Group-3" transform="translate(248.000000, 409.000000)">
-                <path d="M50,68 L50,18 L153,18 L153,69.3355263 L101.664474,69.3355263 L101.664474,120.671053 L51.336,120.672 L51.3355263,171 L0,171 L0,68 L50,68 Z" id="Combined-Shape" fill="url(#linearGradient-1)"></path>
+        <g id="Desktop" transform="translate(-167.000000, -491.000000)">
+            <g id="Group-3" transform="translate(167.000000, 473.000000)">
+                <path d="M50,68 L50,18 L153,18 L153,69.3355263 L101.664474,69.3355263 L101.664474,120.671053 L51.336,120.672 L51.3355263,171 L5.68434189e-14,171 L0.001,120.672 L-5.68434189e-14,120.671053 L0,68 L50,68 Z" id="Combined-Shape" fill="url(#linearGradient-1)"></path>
                 <text id="The-MBA-Fund" font-family="SFProDisplay-Semibold, SF Pro Display" font-size="80" font-weight="500" fill="#000000">
                     <tspan x="170" y="76">The MBA</tspan>
                     <tspan x="170" y="171">Fund</tspan>
