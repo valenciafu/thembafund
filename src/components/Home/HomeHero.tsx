@@ -8,11 +8,17 @@ import { Section, Container, H1 } from '../../shared'
 
 import { HEADER_HEIGHT } from '../../constants/measurements'
 import { TEAL_ALPHA, LILAC_ALPHA } from '../../constants/colors'
+import {
+  maxWidth,
+  TABLET,
+  minWidth,
+  DESKTOP,
+} from '../../constants/measurements'
 
 const Parent = styled(Section)`
   position: relative;
-  margin-top: 0;
-  padding-top: 0;
+  margin-top: 0rem;
+  padding-top: 0rem;
   background-image: linear-gradient(
     -45deg,
     ${LILAC_ALPHA(0.7)},
@@ -49,8 +55,10 @@ const TextDiv = styled.div`
 `
 
 const StyledH1 = styled(H1)`
-  font-size: 3.5vw;
-  line-height: 9vh;
+  ${minWidth(DESKTOP)} {
+    font-size: 3.5vw;
+    line-height: 9vh;
+  }
 `
 
 export const HomeHero = () => {
@@ -58,19 +66,13 @@ export const HomeHero = () => {
     query {
       homeHeroImg: file(relativePath: { eq: "home/hero-home.jpg" }) {
         childImageSharp {
-          fluid(maxWidth: 4000) {
+          fluid(maxWidth: 4000, quality: 100) {
             ...GatsbyImageSharpFluid
           }
         }
       }
     }
   `)
-
-  const {
-    homeHeroImg: {
-      childImageSharp: { fluid },
-    },
-  } = data
 
   return (
     <Parent>
@@ -81,7 +83,7 @@ export const HomeHero = () => {
         </StyledH1>
       </TextDiv>
       <FakeBgImage
-        fluid={fluid}
+        fluid={data.homeHeroImg.childImageSharp.fluid}
         style={{
           marginTop: '0',
           marginBottom: '0',

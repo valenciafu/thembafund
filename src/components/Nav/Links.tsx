@@ -54,7 +54,7 @@ const StyledLink = styled(Link)<{}>`
   transition: opacity ${SHORT_ANIMATION_DURATION}ms ease;
   font-family: ${INTER};
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 0.9rem;
 
   &:visited {
     color: ${BLACK};
