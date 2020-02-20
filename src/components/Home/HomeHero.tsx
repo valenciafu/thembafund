@@ -87,6 +87,7 @@ export const HomeHero = () => {
         style={{
           marginTop: '0',
           marginBottom: '0',
+          width: '100%',
         }}
       />
     </Parent>
