@@ -2,7 +2,6 @@ import React from 'react'
 import styled from 'styled-components'
 import { useStaticQuery, graphql } from 'gatsby'
 import Img from 'gatsby-image'
-import BackgroundImage from 'gatsby-background-image'
 
 import { Section, Container, H1 } from '../../shared'
 
@@ -64,7 +63,7 @@ const StyledH1 = styled(H1)`
 export const HomeHero = () => {
   const data = useStaticQuery(graphql`
     query {
-      homeHeroImg: file(relativePath: { eq: "home/hero-home.jpg" }) {
+      homeHeroImg: file(relativePath: { eq: "hero-home.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 4000, quality: 100) {
             ...GatsbyImageSharpFluid
