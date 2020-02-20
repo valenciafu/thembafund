@@ -58,7 +58,7 @@ export const HomeHero = () => {
     query {
       homeHeroImg: file(relativePath: { eq: "home/hero-home.jpg" }) {
         childImageSharp {
-          fluid(maxWidth: 848) {
+          fluid(maxWidth: 4000) {
             ...GatsbyImageSharpFluid
           }
         }
