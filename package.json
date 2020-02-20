@@ -46,6 +46,7 @@
     "typescript": "^3.7.4"
   },
   "devDependencies": {
+    "gh-pages": "^2.2.0",
     "husky": "^4.2.1",
     "prettier": "^1.19.1"
   },
@@ -72,7 +73,8 @@
     "serve": "gatsby serve",
     "lint": "tslint src/**/**/*.ts src/**/**/*.tsx",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 0"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 0",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "husky": {
     "hooks": {

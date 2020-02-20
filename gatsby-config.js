@@ -5,6 +5,7 @@ module.exports = {
 `,
     author: `Valencia Fu valenciafu@gmail.com`,
   },
+  pathPrefix: '/reponame',
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,
