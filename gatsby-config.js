@@ -19,13 +19,6 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `markdown`,
-        path: `${__dirname}/src/markdown`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
         name: `Json`,
         path: `${__dirname}/src/data`,
       },
@@ -55,26 +48,6 @@ module.exports = {
           families: ['Inter'],
           urls: ['/fonts/fonts.css'],
         },
-      },
-    },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: 'UA-21029575-11',
-      },
-    },
-    {
-      resolve: `gatsby-plugin-remote-images`,
-      options: {
-        nodeType: 'Member',
-        imagePath: 'photo',
-      },
-    },
-    {
-      resolve: `gatsby-plugin-remote-images`,
-      options: {
-        nodeType: 'GhostPost',
-        imagePath: 'feature_image',
       },
     },
   ],
