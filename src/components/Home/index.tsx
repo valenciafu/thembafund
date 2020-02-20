@@ -6,9 +6,9 @@ import { Funded } from './Funded'
 import { Products } from './Products'
 
 export default () => (
-	<>
-		<HomeHero />
-		<Mission />
-		<Funded />
-	</>
+  <>
+    <HomeHero />
+    <Mission />
+    <Funded />
+  </>
 )
