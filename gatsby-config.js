@@ -5,7 +5,7 @@ module.exports = {
 `,
     author: `Valencia Fu valenciafu@gmail.com`,
   },
-  pathPrefix: '/reponame',
+  pathPrefix: '/thembafund',
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,
