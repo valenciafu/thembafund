@@ -1,9 +1,9 @@
 {
-  "name": "pennlabs.org",
+  "name": "thembafund.com",
   "private": true,
-  "description": "Built for students, by students. Penn Labs is the student software development organization improving life at the University of Pennsylvania.",
+  "description": "A network of founders, executives and investors. The MBA Fund is committed to mentoring and investing in leading early-stage, student and alumni founders.",
   "version": "0.1.0",
-  "author": "Penn Labs <contact@pennlabs.org>",
+  "author": "Valencia Fu <valenciafu@gmail.com>",
   "dependencies": {
     "@types/node": "^13.1.7",
     "@types/react": "^16.9.17",
@@ -51,17 +51,16 @@
     "prettier": "^1.19.1"
   },
   "keywords": [
-    "technologies",
-    "software",
-    "students",
-    "university",
-    "university of pennsylvania",
-    "penn",
-    "upenn",
-    "education",
-    "academics",
-    "productivity",
-    "college"
+    "entrepreneurship",
+    "VC",
+    "venture capital",
+    "investment",
+    "business",
+    "MBA",
+    "Wharton",
+    "Harvard",
+    "Stanford",
+    "startups"
   ],
   "license": "MIT",
   "scripts": {

@@ -3,8 +3,8 @@ import Helmet from 'react-helmet'
 import { useStaticQuery, graphql } from 'gatsby'
 
 const IMAGE =
-  'https://pennlabs-assets.s3.amazonaws.com/metadata-images/penn-labs.png'
-const URL = 'pennlabs.org'
+  'https://the-mba-fund.s3.us-east-2.amazonaws.com/misc/mba-metadata.png'
+const URL = 'thembafund.com'
 
 type Meta =
   | { name: string; content: any; property?: undefined }
