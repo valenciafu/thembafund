@@ -1,9 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 import { useStaticQuery, graphql } from 'gatsby'
-import Img from 'gatsby-image'
 
-import { Section, Container, H1 } from '../../shared'
+import { Section, Container, H1, Img } from '../../shared'
 
 import { HEADER_HEIGHT } from '../../constants/measurements'
 import { TEAL_ALPHA, LILAC_ALPHA } from '../../constants/colors'
@@ -27,12 +26,23 @@ const Parent = styled(Section)`
   padding-bottom: 1rem;
 `
 
+const ImageWrapper = styled.div`
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90vh;
+  overflow: hidden;
+  z-index: -1;
+`
+
 const FakeBgImage = styled(Img)`
   position: absolute;
   top: 0;
   left: 0;
-  width: 100vw;
-  height: 90vh;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
   z-index: -1;
 
   & > img {
@@ -81,14 +91,15 @@ export const HomeHero = () => {
           and investing in leading early-stage, student and alumni founders.
         </StyledH1>
       </TextDiv>
-      <FakeBgImage
-        fluid={data.homeHeroImg.childImageSharp.fluid}
-        style={{
-          marginTop: '0',
-          marginBottom: '0',
-          width: '100%',
-        }}
-      />
+      <ImageWrapper>
+        <FakeBgImage
+          src="https://the-mba-fund.s3.us-east-2.amazonaws.com/misc/hero-home.jpg"
+          style={{
+            marginTop: '0',
+            marginBottom: '0',
+          }}
+        />
+      </ImageWrapper>
     </Parent>
   )
 }
