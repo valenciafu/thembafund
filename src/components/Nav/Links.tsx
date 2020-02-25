@@ -11,7 +11,11 @@ import {
 } from '../../constants/measurements'
 import { BLACK } from '../../constants/colors'
 import { INTER } from '../../constants/fonts'
-import { PORTFOLIO_ROUTE, TEAM_ROUTE } from '../../constants/routes'
+import {
+  ABOUT_ROUTE,
+  PORTFOLIO_ROUTE,
+  TEAM_ROUTE,
+} from '../../constants/routes'
 
 interface ILinksProps {
   active: boolean
@@ -80,6 +84,7 @@ const StyledLink = styled(Link)<{}>`
 `
 
 const links: string[][] = [
+  ['About', ABOUT_ROUTE],
   ['Portfolio', PORTFOLIO_ROUTE],
   ['Team', TEAM_ROUTE],
 ]
