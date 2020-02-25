@@ -6,10 +6,10 @@ import SEO from '../components/SEO'
 import { Contact } from '../components/misc/Contact'
 
 const ContactPage = (): React.ReactElement => (
-	<Layout>
-		<SEO title="Contact" />
-		<Contact />
-	</Layout>
+  <Layout>
+    <SEO title="Contact" />
+    <Contact />
+  </Layout>
 )
 
 export default ContactPage
