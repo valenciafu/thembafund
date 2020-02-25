@@ -15,6 +15,7 @@ import {
   ABOUT_ROUTE,
   PORTFOLIO_ROUTE,
   TEAM_ROUTE,
+  CONTACT_ROUTE,
 } from '../../constants/routes'
 
 interface ILinksProps {
@@ -87,6 +88,7 @@ const links: string[][] = [
   ['About', ABOUT_ROUTE],
   ['Portfolio', PORTFOLIO_ROUTE],
   ['Team', TEAM_ROUTE],
+  ['Contact', CONTACT_ROUTE],
 ]
 
 export const Links = ({ active }: ILinksProps): React.ReactElement => (
