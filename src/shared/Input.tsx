@@ -142,7 +142,7 @@ export const Input = ({
         <TextareaTag
           onChange={handleChange}
           id={props.name}
-          rows={rows || 10}
+          rows={rows || 6}
           required={required}
           {...props}
         />

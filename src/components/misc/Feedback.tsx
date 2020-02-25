@@ -8,7 +8,7 @@ import {
   OUTLINE,
 } from '../../constants/colors'
 import { maxWidth, PHONE } from '../../constants/measurements'
-import { FEEDBACK_ROUTE } from '../../constants/routes'
+import { CONTACT_ROUTE } from '../../constants/routes'
 import { MessageIcon } from '../../shared'
 
 const DIAMETER = '2.8rem'
@@ -51,8 +51,8 @@ const FeedbackLink = s.a<{}>`
 
 export const Feedback = (): JSX.Element => (
   <FeedbackLink
-    href={FEEDBACK_ROUTE}
-    title="Feedback"
+    href={CONTACT_ROUTE}
+    title="Contact"
     target="_blank"
     rel="noopener noreferrer"
   >
