@@ -50,12 +50,7 @@ const FeedbackLink = s.a<{}>`
 `
 
 export const Feedback = (): JSX.Element => (
-  <FeedbackLink
-    href={CONTACT_ROUTE}
-    title="Contact"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
+  <FeedbackLink href={CONTACT_ROUTE} title="Contact">
     <MessageIcon style={{ color: WHITE, transform: 'scale(1.1)' }} />
   </FeedbackLink>
 )
