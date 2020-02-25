@@ -36,34 +36,50 @@ const ImageWrapper = styled.div`
   z-index: -1;
 `
 
-const FakeBgImage = styled(Img)`
+const DesktopImage = styled(Img)`
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: auto;
-  overflow: hidden;
   z-index: -1;
 
-  & > img {
-    object-fit: cover !important;
-    object-position: 0% 0% !important;
-    font-family: 'object-fit: cover !important; object-position: 0% 0% !important;';
-  }
+  object-fit: cover;
 
   @media screen and (max-width: 600px) {
     height: ${({ mobileHeight }) => mobileHeight};
+  }
+
+  ${maxWidth(TABLET)} {
+    display: none;
+  }
+`
+
+const MobileImage = styled(Img)`
+  height: 100%;
+  margin-bottom: 0;
+  object-fit: cover;
+
+  ${minWidth(TABLET)} {
+    display: none;
   }
 `
 
 const TextDiv = styled.div`
   position: absolute;
-  margin-top: 32vh;
+  margin-top: 30%;
   width: 86vw;
   margin-left: 7vw;
+
+  ${minWidth(TABLET)} {
+    margin-top: 32vh;
+  }
 `
 
 const StyledH1 = styled(H1)`
+  font-size: 2rem;
+  line-height: 7vh;
+
   ${minWidth(DESKTOP)} {
     font-size: 3.5vw;
     line-height: 9vh;
@@ -71,18 +87,6 @@ const StyledH1 = styled(H1)`
 `
 
 export const HomeHero = () => {
-  const data = useStaticQuery(graphql`
-    query {
-      homeHeroImg: file(relativePath: { eq: "hero-home.jpg" }) {
-        childImageSharp {
-          fluid(maxWidth: 4000, quality: 100) {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-    }
-  `)
-
   return (
     <Parent>
       <TextDiv>
@@ -92,7 +96,15 @@ export const HomeHero = () => {
         </StyledH1>
       </TextDiv>
       <ImageWrapper>
-        <FakeBgImage
+        <DesktopImage
+          src="https://the-mba-fund.s3.us-east-2.amazonaws.com/misc/hero-home.jpg"
+          style={{
+            marginTop: '0',
+            marginBottom: '0',
+          }}
+        />
+
+        <MobileImage
           src="https://the-mba-fund.s3.us-east-2.amazonaws.com/misc/hero-home.jpg"
           style={{
             marginTop: '0',

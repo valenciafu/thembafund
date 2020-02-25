@@ -79,7 +79,7 @@ const StyledLink = styled(Link)<{}>`
     text-align: center;
     display: block;
     margin: 0.5rem 0;
-    font-size: 1.2rem;
+    font-size: 0.8rem;
   }
 `
 
