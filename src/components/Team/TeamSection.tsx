@@ -53,7 +53,7 @@ const TeamSection = (props): React.ReactElement => (
             linkedin,
             otherLink,
           }) => (
-            <Col sm={12} md={4} margin={M2} key={name}>
+            <Col sm={12} md={6} lg={4} margin={M2} key={name}>
               <StyledCard flex bordered>
                 <StyledImg src={image} />
                 <H3 center>{name}</H3>
@@ -63,7 +63,11 @@ const TeamSection = (props): React.ReactElement => (
                 <P center style={{ fontSize: '0.8rem' }}>
                   {bio}
                 </P>
-                <StyledLink href="mailto:{email}" target="_blank">
+                <StyledLink
+                  href={`mailto:${email}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <MailIcon />
                 </StyledLink>
                 <StyledLink href={linkedin} target="_blank">

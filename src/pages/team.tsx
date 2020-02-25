@@ -1,5 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
+import {
+  ScrollingProvider,
+  SectionLink,
+  SectionLinks,
+  Section,
+} from 'react-scroll-section'
 
 import Layout from '../components/Layout'
 import SEO from '../components/SEO'
@@ -7,7 +13,6 @@ import { TeamHero } from '../components/Team/Hero'
 import TeamSection from '../components/Team/TeamSection'
 import {
   WideContainer,
-  Section,
   Row,
   Col,
   Card,
@@ -19,7 +24,8 @@ import {
   LinkedInIcon,
 } from '../shared'
 import { M1, M2, M3 } from '../constants/measurements'
-import { DARK_GRAY } from '../constants/colors'
+import { DARK_GRAY, MBA_AQUA, OUTLINE } from '../constants/colors'
+import { maxWidth, PHONE } from '../constants/measurements'
 
 const HarvardTeam = require('../data/harvard-team.json') as string // tslint:disable-line
 const StanfordTeam = require('../data/stanford-team.json') as string // tslint:disable-line
@@ -37,13 +43,78 @@ const StyledLink = styled.a`
   target: _blank;
 `
 
+const NavBox = styled.div<{}>`
+  width: 6rem;
+  height: auto;
+  position: fixed;
+  bottom: 40vh;
+  left: 18px;
+  text-align: left;
+  cursor: pointer;
+  z-index: 10;
+  transition: background-color 0.2s ease;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.7);
+
+  ${maxWidth(PHONE)} {
+    bottom: 9px;
+    right: 9px;
+  }
+`
+
+const NavLink = styled.li`
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.25s;
+  margin: 0;
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+  user-select: none;
+  color: ${props => (props.selected ? `${MBA_AQUA}` : 'inherit')};
+  border-left: 0.3rem solid
+    ${props => (props.selected ? `${MBA_AQUA}` : 'transparent')};
+`
+
 const TeamPage = (props): React.ReactElement => (
   <Layout>
-    <SEO title="Team" />
-    <TeamHero />
-    <TeamSection name="Harvard Team" path={HarvardTeam} />
-    <TeamSection name="Stanford Team" path={StanfordTeam} />
-    <TeamSection name="Wharton Team" path={WhartonTeam} />
+    <ScrollingProvider scrollbehavior="smooth">
+      <SEO title="Team" />
+      <NavBox>
+        <SectionLink section="harvard">
+          {({ onClick, isSelected }) => (
+            <NavLink onClick={onClick} selected={isSelected}>
+              Harvard
+            </NavLink>
+          )}
+        </SectionLink>
+        <SectionLink section="stanford">
+          {({ onClick, isSelected }) => (
+            <NavLink onClick={onClick} selected={isSelected}>
+              Stanford
+            </NavLink>
+          )}
+        </SectionLink>
+        <SectionLink section="wharton">
+          {({ onClick, isSelected }) => (
+            <NavLink onClick={onClick} selected={isSelected}>
+              Wharton
+            </NavLink>
+          )}
+        </SectionLink>
+      </NavBox>
+      <TeamHero />
+      <Section id="harvard">
+        <TeamSection name="Harvard Team" path={HarvardTeam} />
+      </Section>
+      <Section id="stanford">
+        <TeamSection name="Stanford Team" path={StanfordTeam} />
+      </Section>
+      <Section id="wharton">
+        <TeamSection name="Wharton Team" path={WhartonTeam} />
+      </Section>
+    </ScrollingProvider>
   </Layout>
 )
 export default TeamPage
