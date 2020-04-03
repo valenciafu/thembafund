@@ -3,15 +3,13 @@ import styled from 'styled-components'
 import { Link } from 'gatsby'
 import { HOME_ROUTE } from '../../constants/routes'
 
-const logoPath = require('../../images/mba-logo.svg') as string // tslint:disable-line
+const logoPath = require('../../images/mba-logo.png') as string // tslint:disable-line
 
 const Image = styled.img<{}>`
   height: 2rem;
 
   margin-bottom: 0;
   overflow: visible;
-  width: 100%;
-  margin-left: -9vw;
 `
 
 export const Logo = (): React.ReactElement => (
