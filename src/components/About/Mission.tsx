@@ -52,22 +52,22 @@ interface IStat {
 const stats: IStat[] = [
   {
     content:
-      'Understand what they need to get from 0 to 1, and 1 to 10, and aren’t bashful when it comes to the help they need',
+      'Understand what they need to get from 0 to 1, and 1 to 10.',
     image:
       'https://the-mba-fund.s3.us-east-2.amazonaws.com/portfolio/home-images/work.jpg',
   },
   {
-    content: 'Dream large enough to change the way business is conducted',
+    content: 'Dream large enough to change the way business is conducted.',
     image:
       'https://the-mba-fund.s3.us-east-2.amazonaws.com/portfolio/home-images/building.jpg',
   },
   {
-    content: 'Embrace large problems and tackle them with innovative solutions',
+    content: 'Embrace large problems and tackle them with innovative solutions.',
     image:
       'https://the-mba-fund.s3.us-east-2.amazonaws.com/portfolio/home-images/mountain.jpg',
   },
   {
-    content: 'Attract other great talent with a killer instinct',
+    content: 'Attract other great talent with a killer instinct.',
     image:
       'https://the-mba-fund.s3.us-east-2.amazonaws.com/portfolio/home-images/meeting.jpg',
   },
