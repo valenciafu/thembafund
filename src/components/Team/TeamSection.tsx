@@ -51,15 +51,15 @@ const TeamSection = (props): React.ReactElement => (
                   {name}
                 </H3>
                 <P center>{year}</P>
-                <P center style={{ fontSize: '0.8rem' }}>
+                <P center style={{ fontSize: '0.8rem', lineHeight: '1.2rem' }}>
                   {bio}
                 </P>
                 <StyledLink href={linkedin} target="_blank">
-                  <LinkedInIcon />
+                  <LinkedInIcon style={{ height: '18px' }} />
                 </StyledLink>
                 {otherLink && (
                   <StyledLink href={otherLink} target="_blank">
-                    <LinkIcon />
+                    <LinkIcon style={{ height: '18px' }} />
                   </StyledLink>
                 )}
               </StyledCard>

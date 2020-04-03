@@ -26,7 +26,7 @@ const StyledShade = s.div<IStyledShadeProps>(
 
     overflow-x: hidden;
     overflow-y: hidden;
-    background: ${BLACK_ALPHA(0.5)};
+    background: ${BLACK_ALPHA(0.2)};
     z-index: ${zIndex};
     text-align: center;
 
