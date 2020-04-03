@@ -48,7 +48,7 @@ const NavBox = styled.div<{}>`
   width: 5.5rem;
   height: auto;
   position: fixed;
-  bottom: 40vh;
+  bottom: 30vh;
   left: 18px;
   text-align: left;
   cursor: pointer;

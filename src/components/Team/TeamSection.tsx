@@ -17,11 +17,11 @@ import {
 } from '../../shared'
 import { M1, M2, M3 } from '../../constants/measurements'
 import { DARK_GRAY } from '../../constants/colors'
+import TeamModal from './TeamModal'
 
 const StyledCard = styled(Card)`
   text-align: center;
   padding-top: ${M3};
-  padding-bottom: ${M3};
 `
 
 const StyledLink = styled.a`
@@ -43,19 +43,11 @@ const TeamSection = (props): React.ReactElement => (
       <H2>{props.name}</H2>
       <Row margin={M2}>
         {props.path.map(
-          ({
-            image,
-            name,
-            year,
-            email,
-            bio,
-            linkedin,
-            otherLink,
-          }) => (
+          ({ image, name, year, email, bio, linkedin, otherLink }) => (
             <Col sm={12} md={6} lg={3} margin={M2} key={name}>
               <StyledCard flex bordered>
                 <StyledImg src={image} />
-                <H3 center>{name}</H3>
+                <H3 center mb1>{name}</H3>
                 <P center>
                   {year}
                 </P>
@@ -79,10 +71,9 @@ const TeamSection = (props): React.ReactElement => (
                 )}
               </StyledCard>
             </Col>
-          ),
-        )}
-      </Row>
-    </Section>
+          ))} 
+        </Row>
+      </Section>
   </WideContainer>
 )
 export default TeamSection
