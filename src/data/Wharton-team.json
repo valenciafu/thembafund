@@ -68,5 +68,15 @@
     "bio": "I love to snow ski!",
     "linkedin": "https://www.linkedin.com/in/lindsay-pistor-a6aba5aa/",
     "otherLink": ""
+  },
+  {
+    "name": "test new",
+    "email": "lindsay.pistor@gmail.com",
+    "hometown": "Houston, TX",
+    "year": "2020",
+    "image": "https://the-mba-fund.s3.us-east-2.amazonaws.com/lindsay-pistor.jpg",
+    "bio": "I love to snow ski!",
+    "linkedin": "https://www.linkedin.com/in/lindsay-pistor-a6aba5aa/",
+    "otherLink": ""
   }
 ]
