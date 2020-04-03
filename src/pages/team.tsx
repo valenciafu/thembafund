@@ -86,7 +86,7 @@ const TeamPage = (props): React.ReactElement => (
         <SectionLink section="gp">
           {({ onClick, isSelected }) => (
             <NavLink onClick={onClick} selected={isSelected}>
-              General Partners
+              GPs
             </NavLink>
           )}
         </SectionLink>
@@ -114,7 +114,7 @@ const TeamPage = (props): React.ReactElement => (
       </NavBox>
       <TeamHero />
       <Section id="gp">
-        <TeamSection name="General Partners" path={GPTeam} />
+        <TeamSection name="GPs" path={GPTeam} />
       </Section>
       <Section id="harvard">
         <TeamSection name="Harvard Team" path={HarvardTeam} />

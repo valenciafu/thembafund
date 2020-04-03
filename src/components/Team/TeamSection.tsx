@@ -47,20 +47,13 @@ const TeamSection = (props): React.ReactElement => (
             <Col sm={12} md={6} lg={3} margin={M2} key={name}>
               <StyledCard flex bordered>
                 <StyledImg src={image} />
-                <H3 center mb1>{name}</H3>
-                <P center>
-                  {year}
-                </P>
+                <H3 center mb1>
+                  {name}
+                </H3>
+                <P center>{year}</P>
                 <P center style={{ fontSize: '0.8rem' }}>
                   {bio}
                 </P>
-                <StyledLink
-                  href={`mailto:${email}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <MailIcon />
-                </StyledLink>
                 <StyledLink href={linkedin} target="_blank">
                   <LinkedInIcon />
                 </StyledLink>
@@ -71,9 +64,10 @@ const TeamSection = (props): React.ReactElement => (
                 )}
               </StyledCard>
             </Col>
-          ))} 
-        </Row>
-      </Section>
+          ),
+        )}
+      </Row>
+    </Section>
   </WideContainer>
 )
 export default TeamSection

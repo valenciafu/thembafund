@@ -30,22 +30,10 @@
     "image": "https://the-mba-fund.s3.us-east-2.amazonaws.com/portfolio/carry.jpg"
   },
   {
-    "name": "Trustworthy",
-    "description": "",
-    "link": "",
-    "image": ""
-  },
-  {
     "name": "rmdy",
     "description": "Comprehensive Gut Health, Simplified.",
     "link": "https://rmdy.com/",
     "image": "https://the-mba-fund.s3.us-east-2.amazonaws.com/portfolio/rmdy.svg"
-  },
-  {
-    "name": "Rightfoot",
-    "description": "",
-    "link": "",
-    "image": ""
   },
   {
     "name": "Vroom Delivery",
@@ -118,12 +106,6 @@
     "description": "TRM helps financial institutions fight money laundering, prevent fraud, and stay in compliance.",
     "link": "https://trmlabs.com/",
     "image": "https://the-mba-fund.s3.us-east-2.amazonaws.com/portfolio/trm.svg"
-  },
-  {
-    "name": "POPIN",
-    "description": "",
-    "link": "",
-    "image": ""
   },
   {
     "name": "Chirps Chips",
