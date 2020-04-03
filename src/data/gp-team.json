@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Sieva Kozinsky",
+    "email": "",
+    "hometown": "",
+    "year": "MBA @The Wharton School",
+    "image": "https://the-mba-fund.s3.us-east-2.amazonaws.com/sieva-kozinsky.jpg",
+    "bio": "Co-Founder and CEO @StudySoup, Honoree @Forbes30under30, Founder @Junto SF and NYC, Angel Investor @6 startups",
+    "linkedin": "https://www.linkedin.com/in/skozinsky",
+    "otherLink": ""
+  },
+  {
+    "name": "Josh Hoffman-Senn",
+    "email": "",
+    "hometown": "",
+    "year": "MBA @Harvard Business School",
+    "image": "https://the-mba-fund.s3.us-east-2.amazonaws.com/josh-hoffman-senn.jpeg",
+    "bio": "Co-Founder @Causemo (acquired by The Pursuant Group), Co-Founder @Lesson Squad, investor @BlueIO @Allied Minds, consultant @various startups & angels",
+    "linkedin": "https://www.linkedin.com/in/joshhoffmansenn",
+    "otherLink": ""
+  },
+  {
+    "name": "Hansae Catlett",
+    "email": "",
+    "hometown": "",
+    "year": "MBA/MPP @Stanford Graduate School of Business",
+    "image": "https://the-mba-fund.s3.us-east-2.amazonaws.com/hansae-catlett.jpg",
+    "bio": "Investor @Bessemer, Consultant @The Bridgespan Group - Investor on behalf of Scott Cook, Consultant @Slow Ventures, Investor @New Island Capital @KNF Ventures @Omidyar Network @Draper Richards Kaplan, Fellow @Pacific Community Ventures",
+    "linkedin": "https://www.linkedin.com/in/hansae-catlett-436a9b21",
+    "otherLink": ""
+  },
+  {
+    "name": "Hiro Tien",
+    "email": "",
+    "hometown": "",
+    "year": "MBA/MS @Stanford Graduate School of Business",
+    "image": "https://the-mba-fund.s3.us-east-2.amazonaws.com/hiro-tien.jpg",
+    "bio": "Co-Founder & CEO @Viralspace.ai, Investment Team @Google's AI Fund, Gradient Ventures, Associate @Box, VC Fellow @Uncork Capital (formerly SoftTech VC), Founder and CEO @Groupon-equivalent of Brunei, SEAsia.",
+    "linkedin": "https://www.linkedin.com/in/hirotien",
+    "otherLink": ""
+  }
+]
