@@ -51,8 +51,7 @@ interface IStat {
 
 const stats: IStat[] = [
   {
-    content:
-      'Understand what they need to get from 0 to 1, and 1 to 10.',
+    content: 'Understand what they need to get from 0 to 1, and 1 to 10.',
     image:
       'https://the-mba-fund.s3.us-east-2.amazonaws.com/portfolio/home-images/work.jpg',
   },
@@ -62,7 +61,8 @@ const stats: IStat[] = [
       'https://the-mba-fund.s3.us-east-2.amazonaws.com/portfolio/home-images/building.jpg',
   },
   {
-    content: 'Embrace large problems and tackle them with innovative solutions.',
+    content:
+      'Embrace large problems and tackle them with innovative solutions.',
     image:
       'https://the-mba-fund.s3.us-east-2.amazonaws.com/portfolio/home-images/mountain.jpg',
   },
