@@ -46,19 +46,18 @@ const TeamSection = (props): React.ReactElement => (
           ({
             image,
             name,
-            hometown,
             year,
             email,
             bio,
             linkedin,
             otherLink,
           }) => (
-            <Col sm={12} md={6} lg={4} margin={M2} key={name}>
+            <Col sm={12} md={6} lg={3} margin={M2} key={name}>
               <StyledCard flex bordered>
                 <StyledImg src={image} />
                 <H3 center>{name}</H3>
                 <P center>
-                  {hometown} • {year}
+                  {year}
                 </P>
                 <P center style={{ fontSize: '0.8rem' }}>
                   {bio}

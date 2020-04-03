@@ -27,6 +27,7 @@ import { M1, M2, M3 } from '../constants/measurements'
 import { DARK_GRAY, MBA_AQUA, OUTLINE } from '../constants/colors'
 import { maxWidth, PHONE } from '../constants/measurements'
 
+const GPTeam = require('../data/gp-team.json') as string // tslint:disable-line
 const HarvardTeam = require('../data/harvard-team.json') as string // tslint:disable-line
 const StanfordTeam = require('../data/stanford-team.json') as string // tslint:disable-line
 const WhartonTeam = require('../data/wharton-team.json') as string // tslint:disable-line
@@ -44,7 +45,7 @@ const StyledLink = styled.a`
 `
 
 const NavBox = styled.div<{}>`
-  width: 6rem;
+  width: 5.5rem;
   height: auto;
   position: fixed;
   bottom: 40vh;
@@ -82,6 +83,13 @@ const TeamPage = (props): React.ReactElement => (
     <ScrollingProvider scrollbehavior="smooth">
       <SEO title="Team" />
       <NavBox>
+        <SectionLink section="gp">
+          {({ onClick, isSelected }) => (
+            <NavLink onClick={onClick} selected={isSelected}>
+              General Partners
+            </NavLink>
+          )}
+        </SectionLink>
         <SectionLink section="harvard">
           {({ onClick, isSelected }) => (
             <NavLink onClick={onClick} selected={isSelected}>
@@ -105,6 +113,9 @@ const TeamPage = (props): React.ReactElement => (
         </SectionLink>
       </NavBox>
       <TeamHero />
+      <Section id="gp">
+        <TeamSection name="General Partners" path={GPTeam} />
+      </Section>
       <Section id="harvard">
         <TeamSection name="Harvard Team" path={HarvardTeam} />
       </Section>
